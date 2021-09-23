@@ -14,3 +14,12 @@ Pour créer un gameObject à partir d'une source :
 - existant dans la scène :
 ```csharp
 Instantiate(gameObject);
+
+- en récupérant l'instance crée pour la détruire ensuite :
+```csharp
+GameObject clone = Instantiate (gameObject);
+Destroy (clone,5f);
+```
+
+[voir usage dans CloneOnCLick.cs](./Assets/CloneOnCLick.cs)
+
