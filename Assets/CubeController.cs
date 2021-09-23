@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CubeController : MonoBehaviour
 {
-
+    //test
     public float speed = 5f;
     public float jumpSpeed = 10f;
     public float jumpCoolDown = 0f;
